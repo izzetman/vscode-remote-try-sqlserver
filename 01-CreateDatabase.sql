@@ -6,7 +6,7 @@ GO
 IF NOT EXISTS (
     SELECT name
         FROM sys.databases
-        WHERE name = N'TrySQLCMD'
+        WHERE name = N'DBNO1'
 )
-CREATE DATABASE TrySQLCMD
+CREATE DATABASE DBNO1
 GO
