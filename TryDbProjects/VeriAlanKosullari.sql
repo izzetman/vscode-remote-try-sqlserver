@@ -1,0 +1,5 @@
+CREATE TABLE [dbo].[VeriAlanKosullari]
+(
+  [ID] INT NOT NULL PRIMARY KEY NONCLUSTERED,
+  [Kosul] NVARCHAR(100) NOT NULL
+)

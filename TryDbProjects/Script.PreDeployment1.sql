@@ -1,102 +1,161 @@
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[Programlama].[SinifAlanlari]') AND type in (N'U'))
-    DROP TABLE [Programlama].[SinifAlanlari]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[Programlama].[SinifAlanlari]') AND type in (N'U'))
+--     DROP TABLE [Programlama].[SinifAlanlari]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[Programlama].[MetodUygulamalari]') AND type in (N'U'))
-    DROP TABLE [Programlama].[MetodUygulamalari]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[Programlama].[MetodUygulamalari]') AND type in (N'U'))
+--     DROP TABLE [Programlama].[MetodUygulamalari]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[Programlama].[MetodParametreleri]') AND type in (N'U'))
-    DROP TABLE [Programlama].[MetodParametreleri]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[Programlama].[MetodParametreleri]') AND type in (N'U'))
+--     DROP TABLE [Programlama].[MetodParametreleri]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[Programlama].[Metodlar]') AND type in (N'U'))
-    DROP TABLE [Programlama].[Metodlar]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[Programlama].[MetodAciklamalari]') AND type in (N'U'))
+--     DROP TABLE [Programlama].[MetodAciklamalari]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[Programlama].[SinifTuremeler]') AND type in (N'U'))
-    DROP TABLE [Programlama].[SinifTuremeler]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[Programlama].[Metodlar]') AND type in (N'U'))
+--     DROP TABLE [Programlama].[Metodlar]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[Programlama].[SinifUygulananArabirimler]') AND type in (N'U'))
-    DROP TABLE [Programlama].[SinifUygulananArabirimler]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[Programlama].[SinifTuremeler]') AND type in (N'U'))
+--     DROP TABLE [Programlama].[SinifTuremeler]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[Programlama].[SinifUygulamalari]') AND type in (N'U'))
-    DROP TABLE [Programlama].[SinifUygulamalari]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[Programlama].[SinifUygulananArabirimler]') AND type in (N'U'))
+--     DROP TABLE [Programlama].[SinifUygulananArabirimler]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[Programlama].[Siniflar]') AND type in (N'U'))
-    DROP TABLE [Programlama].[Siniflar]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[Programlama].[SinifUygulamalari]') AND type in (N'U'))
+--     DROP TABLE [Programlama].[SinifUygulamalari]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[VeriAlanlariKosullari]') AND type in (N'U'))
-    DROP TABLE [dbo].[VeriAlanlariKosullari]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[Programlama].[SinifAciklamalari]') AND type in (N'U'))
+--     DROP TABLE [Programlama].[SinifAciklamalari]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[VeriAlanKosullari]') AND type in (N'U'))
-    DROP TABLE [dbo].[VeriAlanKosullari]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[Programlama].[Siniflar]') AND type in (N'U'))
+--     DROP TABLE [Programlama].[Siniflar]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[OlguVeriAlanlari]') AND type in (N'U'))
-    DROP TABLE [dbo].[OlguVeriAlanlari]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[dbo].[VeriAlanlariKosullari]') AND type in (N'U'))
+--     DROP TABLE [dbo].[VeriAlanlariKosullari]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[OlguHiyerarsi]') AND type in (N'U'))
-    DROP TABLE [dbo].[OlguHiyerarsi]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[dbo].[VeriAlanKosullari]') AND type in (N'U'))
+--     DROP TABLE [dbo].[VeriAlanKosullari]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Olgular]') AND type in (N'U'))
-    DROP TABLE [dbo].[Olgular]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[dbo].[OlguVeriAlanlari]') AND type in (N'U'))
+--     DROP TABLE [dbo].[OlguVeriAlanlari]
+
+-- GO
+
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[dbo].[OlguHiyerarsi]') AND type in (N'U'))
+--     DROP TABLE [dbo].[OlguHiyerarsi]
+
+-- GO
+
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[dbo].[Olgular]') AND type in (N'U'))
+--     DROP TABLE [dbo].[Olgular]
   
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[VeriAlanlari]') AND type in (N'U'))
-    DROP TABLE [dbo].[VeriAlanlari]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[dbo].[VeriAlanlari]') AND type in (N'U'))
+--     DROP TABLE [dbo].[VeriAlanlari]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[AltVeriTipleri]') AND type in (N'U'))
-    DROP TABLE [dbo].[AltVeriTipleri]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[dbo].[AltVeriTipleri]') AND type in (N'U'))
+--     DROP TABLE [dbo].[AltVeriTipleri]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[VeriTipleri]') AND type in (N'U'))
-    DROP TABLE [dbo].[VeriTipleri]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[dbo].[VeriTipleri]') AND type in (N'U'))
+--     DROP TABLE [dbo].[VeriTipleri]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[OlguTipleri]') AND type in (N'U'))
-    DROP TABLE [dbo].[OlguTipleri]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[dbo].[OlguTipleri]') AND type in (N'U'))
+--     DROP TABLE [dbo].[OlguTipleri]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[spAngularCreateDxForm]'))
-    DROP PROCEDURE [dbo].[spAngularCreateDxForm]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[dbo].[spAngularCreateDxForm]'))
+--     DROP PROCEDURE [dbo].[spAngularCreateDxForm]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[spAngularCreateDxDataGrid]'))
-    DROP PROCEDURE [dbo].[spAngularCreateDxDataGrid]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[dbo].[spAngularCreateDxDataGrid]'))
+--     DROP PROCEDURE [dbo].[spAngularCreateDxDataGrid]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[PascalToCamelCase]'))
-    DROP FUNCTION [dbo].[PascalToCamelCase]
+-- IF EXISTS (SELECT *
+-- FROM sys.objects
+-- WHERE object_id = OBJECT_ID(N'[dbo].[PascalToCamelCase]'))
+--     DROP FUNCTION [dbo].[PascalToCamelCase]
 
-GO
+-- GO
 
-IF EXISTS (SELECT * FROM sys.schemas WHERE name = N'Programlama')
-    DROP SCHEMA [Programlama]
+-- IF EXISTS (SELECT *
+-- FROM sys.schemas
+-- WHERE name = N'Programlama')
+--     DROP SCHEMA [Programlama]
+
+-- GO
+
